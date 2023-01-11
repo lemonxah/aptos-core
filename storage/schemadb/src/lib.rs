@@ -267,7 +267,7 @@ impl DB {
                 "DB::cf_handle not found for column family name: {}",
                 cf_name
             )
-        }).into()
+        }).map(|cf_handle| cf_handle.into())
     }
 
     /// Flushes memtable data. This is only used for testing `get_approximate_sizes_cf` in unit
