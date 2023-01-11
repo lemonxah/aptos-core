@@ -352,7 +352,7 @@ indicatif = "0.15.0"
 indoc = "1.0.6"
 ipnet = "2.5.0"
 itertools = "0.10.3"
-jemallocator = { version = "0.3.2", features = ["profiling", "unprefixed_malloc_on_supported_platforms"] }
+jemallocator = { version = "0.5.0", features = ["profiling", "unprefixed_malloc_on_supported_platforms"] }
 json-patch = "0.2.6"
 jsonwebtoken = "8.1"
 k8s-openapi = { version = "0.11.0", default-features = false, features = ["v1_15"] }
